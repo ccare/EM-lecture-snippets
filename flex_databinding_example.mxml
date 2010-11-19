@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- binding/BasicBinding.mxml -->
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
+    <mx:TextInput id="source" text="source text..."/>
+    <mx:Text id="target" text="{source.text}"/>
+</mx:Application>
+
