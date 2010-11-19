@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- binding/BasicBinding.mxml -->
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
+    <mx:Script>
+	<![CDATA[
+		public function onChange(evt:Event):void {
+			target.text = evt.target.text;
+		}
+        ]]>
+    </mx:Script>
+    <mx:TextInput id="source" text="source text..." change="onChange(event)" />
+    <mx:Text id="target" text="'initial value'"/>
+</mx:Application>
+
