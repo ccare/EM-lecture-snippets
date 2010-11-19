@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- binding/BasicBinding.mxml -->
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
+    <mx:Script>
+	<![CDATA[
+		public function onChange(evt:Event):void {
+			target.text = evt.target.text;
+		}
+        ]]>
+    </mx:Script>
+    <mx:TextInput id="source1" text="source 1" change="onChange(event)" />
+    <mx:TextInput id="boundvalue" text="source 2"/>
+    <mx:Text id="target" text="{boundvalue.text}"/>
+</mx:Application>
+
