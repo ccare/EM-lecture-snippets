@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
-<!-- binding/BasicBinding.mxml -->
+<!-- 
+  Example of showing how databinding expressions can be used in a 
+  two-way context. This is because they represent a short hand for
+  event listeners, and not a definition.
+ -->
 <mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
     <mx:TextInput id="source1" text="{source2.text}" />
     <mx:TextInput id="source2" text="{source1.text}"/>

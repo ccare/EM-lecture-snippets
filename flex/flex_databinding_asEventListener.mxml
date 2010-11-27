@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<!-- binding/BasicBinding.mxml -->
+<!-- 
+	Example of a implementing databinding as an event listener.
+ -->
 <mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
     <mx:Script>
 	<![CDATA[

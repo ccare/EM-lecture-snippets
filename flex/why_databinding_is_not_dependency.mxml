@@ -1,5 +1,15 @@
 <?xml version="1.0"?>
-<!-- binding/BasicBinding.mxml -->
+<!-- 
+  Example of showing how databinding expressions are not a 
+  definition in the sense of Empirical Modelling (see <http://www.dcs.warwick.ac.uk/modelling>).
+
+  Although the *target* label is bound to the *boundvalue* input, the 
+  event handler updates the value whenever *source1* is modified. The 
+  binding returns to the normal behaviour on edit of *boundvalue*.
+
+  Despite having databinding, code written this way is difficult to trace 
+  and debug (you can't say, 'what's the definition of *target*').
+ -->
 <mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
     <mx:Script>
 	<![CDATA[
